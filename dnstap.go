@@ -18,7 +18,7 @@
 
 package dnstap
 
-const outputChannelSize = 32
+const outputChannelSize = 300000*1024 //32
 
 // FSContentType is the FrameStream content type for dnstap protobuf data.
 var FSContentType = []byte("protobuf:dnstap.Dnstap")
